@@ -6,6 +6,19 @@
    CATEDRATICO: ING VICTOR VARGAS
   */
 
+
+
+
+
+
+
+
+
+
+
+
+  
+
  #include <stdint.h>
 
 //ESTO SIRVE PARA DEFINIR LAS DIRECCIONES BASE DE LOS REGISTROS RCC Y GPIOA
