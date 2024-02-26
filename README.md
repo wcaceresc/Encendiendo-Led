@@ -6,20 +6,7 @@
    CATEDRATICO: ING VICTOR VARGAS
   */
 
-
-
-
-
-
-
-
-
-
-
-
-  
-
- #include <stdint.h>
+#include <stdint.h>
 
 //ESTO SIRVE PARA DEFINIR LAS DIRECCIONES BASE DE LOS REGISTROS RCC Y GPIOA
 #define RCC_BASE            0x40000000
@@ -27,8 +14,6 @@
 
 //ESTO DE AQUI HABILITA EL RELOJ DE LOS GPIO´S
 #define RCC_AHB1ENR         (*((unsigned int*)(RCC_BASE + 0x30)))
-
-
 
 // DEFINO LOS REGISTROS GPIOA_MODER, GPIOA_IDR, y GPIOA_ODR CONFIGURA Y LEE ESL ESTADO DEL GPIOA
 #define GPIOA_MODER         (*((unsigned int*)(GPIOA_BASE + 0x00)))
